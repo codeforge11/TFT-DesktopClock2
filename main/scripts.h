@@ -1,3 +1,8 @@
+/*
+    CODE SOURCE: https://github.com/codeforge11/TFT-DesktopClock2
+    Created by @codeforge11
+*/
+
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 #include <PolledTimeout.h>
