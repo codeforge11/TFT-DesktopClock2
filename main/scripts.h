@@ -12,7 +12,7 @@
 #include "WiFiUdp.h"
 #include <SPI.h>
 
-#include "data.h"
+#include "wifiData.h"
 
 TFT_eSPI TFTscreen = TFT_eSPI();
 
