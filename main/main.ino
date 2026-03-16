@@ -88,6 +88,10 @@ void loading() {
 
   TFTscreen.fillScreen(TFT_BLACK);
 
+  TFTscreen.setTextColor(TFT_WHITE);
+  TFTscreen.setTextSize(2);
+  TFTscreen.drawString("Loading...", 10, 100, 2);
+
   for (int i = 0; i < ballNum; i++) {
 
     int ballX = centerX + radius * cos(angles[i]);
@@ -99,10 +103,7 @@ void loading() {
     brightness[i] -= 12;
     if (brightness[i] < 50) brightness[i] = 255;
   }
-
-  TFTscreen.setTextColor(TFT_WHITE);
-  TFTscreen.setTextSize(2);
-  TFTscreen.drawString("Loading...", 10, 100, 2);
+  
 }
 
 void refreshScreen() {
